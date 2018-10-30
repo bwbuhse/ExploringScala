@@ -33,6 +33,9 @@ object Main {
     println(list.contains(3)) // true
     println(list.contains(10)) // false
 
+    // Test creating an instance of LinkedList in Java
+    A.javaToScala()
+
   }
 
 }

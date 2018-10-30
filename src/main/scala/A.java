@@ -8,4 +8,13 @@ public class A {
             System.out.println(test());
         }
     }
+
+    static LinkedList javaToScala() {
+        LinkedList<Integer> list = new LinkedList<>();
+
+        list.add(5);
+        System.out.println("spooky:" + list);
+
+        return list;
+    }
 }
