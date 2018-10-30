@@ -1,5 +1,3 @@
-package LinkedList;
-
 public class A {
     static String test() {
         return "test";

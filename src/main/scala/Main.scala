@@ -1,4 +1,3 @@
-package LinkedList
 
 object Main {
 
