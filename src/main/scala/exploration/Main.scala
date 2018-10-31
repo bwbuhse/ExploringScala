@@ -1,5 +1,7 @@
 package exploration
 
+import exploration.datastructures.LinkedList
+
 object Main {
 
   def main(args: Array[String]) {
