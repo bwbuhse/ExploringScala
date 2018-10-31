@@ -1,3 +1,7 @@
+package exploration.misc;
+
+import exploration.datastructures.LinkedList;
+
 public class A {
     static String test() {
         return "test";

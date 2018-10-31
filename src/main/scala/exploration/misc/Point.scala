@@ -1,3 +1,5 @@
+package exploration.misc
+
 class Point {
   private var _x = 0
   private var _y = 0

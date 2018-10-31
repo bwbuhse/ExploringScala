@@ -1,3 +1,4 @@
+package exploration
 
 object Main {
 
@@ -33,7 +34,7 @@ object Main {
     println(list.contains(3)) // true
     println(list.contains(10)) // false
 
-    // Test creating an instance of LinkedList in Java
+    // Test creating an instance of exploration.datastructures.LinkedList in Java
     A.javaToScala()
 
   }

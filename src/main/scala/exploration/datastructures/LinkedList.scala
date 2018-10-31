@@ -1,3 +1,5 @@
+package exploration.datastructures
+
 class LinkedList[A] {
 
   private class Node(val element: A, var next: Option[Node])
