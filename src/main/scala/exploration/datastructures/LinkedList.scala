@@ -2,7 +2,7 @@ package exploration.datastructures
 
 class LinkedList[A] {
 
-  private class Node(val element: A, var next: Option[Node])
+  private class Node(val element: A, var next: Option[Node] = None)
 
   private var head: Option[Node] = None
 
@@ -10,13 +10,13 @@ class LinkedList[A] {
     var node: Option[Node] = head
 
     if (node.isEmpty) {
-      head = Some(new Node(newElement, None))
+      head = Some(new Node(newElement))
     } else {
       while (node.get.next.isDefined) {
         node = node.get.next
       }
 
-      node.get.next = Some(new Node(newElement, None))
+      node.get.next = Some(new Node(newElement))
     }
   }
 
